@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+  .hero h1 {
+      font-size: 3vw;
+  }
+
+  .hero h4 {
+      font-size: small;
+      margin-top: -2vw;
+  }
+
+  .calendar-container { display:none;
+      padding: 15px;
+  }
+
+  #calendar {
+      padding: 20px;
+      display:none;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+      font-size: 2vw;
+  }
+
+  .hero h4 {
+      font-size: small;
+      margin-top: -3vw;
+  }
+
+  .calendar-container {
+      padding: 10px;
+      display:none;
+  }
+
+  #calendar {
+      padding: 15px;
+      display:none;
+  }
+}

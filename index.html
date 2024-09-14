@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productivity App</title>
+    <!-- FullCalendar CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/main.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#"><img src="logo.png" alt="logo"></a>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="blogs.html">blogs</a></li>
+            <li><a href="promodo.html">Pomodoro Timer</a></li>
+            <li><a href="to-do.html">To Do List</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section with Text and Calendar -->
+    <div class="hero">
+        <!-- Left Side: Introduction Text -->
+        <div class="boady">
+            <h1>Introducing the Ultimate Productivity App</h1>
+            <h4>Welcome to our productivity-boosting website! Streamline your daily tasks, stay organized with the calendar view, and conquer your to-do list!</h4>
+            <div style="margin-top: 4vw;">
+                <a class="start-timer" href="promodo.html">Start Timer</a>
+            </div>
+        </div>
+
+        <!-- Right Side: Calendar with Orange Background -->
+        <div class="calendar-container">
+            <div id="calendar"></div>
+        </div> 
+    </div>
+
+    <!-- About Us Section -->
+    <div class="about-section" id="About-us">
+        <h2>About Us</h2>
+        <p>Our Productivity App is designed to help you manage your time, tasks, and goals efficiently. With a built-in Pomodoro Timer, a comprehensive to-do list, and an easy-to-use calendar view, we aim to make your life more organized and productive. Whether you are managing work, studies, or personal tasks, our app is the perfect companion to help you achieve your goals.</p>
+    </div>
+
+    <!-- What We Offer Section -->
+    <div class="offer-section" id="offer">
+        <h2>Here's What We Offer</h2>
+
+        <div class="offer-cards-container">
+            <!-- Card 1: To-Do List -->
+            <div class="offer-card">
+                <img src="to-do.jpg" alt="To-Do List">
+                <h3>To-Do List</h3>
+                <p>Organize your tasks efficiently with our easy-to-use to-do list. Prioritize, categorize, and get things done!</p>
+                <a href="to-do.html" class="offer-btn">Go to To-Do List</a>
+            </div>
+
+            <!-- Card 2: Pomodoro Timer -->
+            <div class="offer-card">
+                <img src="promodo.webp" alt="Pomodoro Timer">
+                <h3>Pomodoro Timer</h3>
+                <p>Boost your productivity by working in focused intervals using the Pomodoro technique. Take breaks and track your progress.</p>
+                <a href="promodo.html" class="offer-btn">Start Pomodoro Timer</a>
+            </div>
+
+            <!-- Card 3: Our Blogs -->
+            <div class="offer-card">
+                <img src="blogs.jpeg" alt="Our Blogs">
+                <h3>Our Blogs</h3>
+                <p>Learn time management tips, productivity hacks, and more through our insightful blogs.</p>
+                <a href="#Blogs" class="offer-btn">Read Our Blogs</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-container">
+            <!-- Footer Left -->
+            <div class="footer-left">
+                <img src="logo.png" alt="logo" class="footer-logo">
+                <p>© 2024 Productivity App. All rights reserved. We aim to enhance your productivity and help you achieve your goals with our innovative tools.</p>
+            </div>
+
+            <!-- Footer Center -->
+            <div class="footer-center">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#About-us">About Us</a></li>
+                    <li><a href="promodo.html">Pomodoro Timer</a></li>
+                    <li><a href="to-do.html">To Do List</a></li>
+                    <li><a href="#Blogs">Blogs</a></li>
+                </ul>
+            </div>
+
+            <!-- Footer Right -->
+            <div class="footer-right">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><img src="facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="twitter.png" alt="Twitter"></a>
+                    <a href="#"><img src="instagram.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <p>Privacy Policy | Terms of Service</p>
+        </div>
+    </div>
+
+    <!-- FullCalendar JS -->
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/main.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
